@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/emoticbox-c/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/emoticbox-c/static/js/main.2c4de128.chunk.js",
-    "main.js.map": "/emoticbox-c/static/js/main.2c4de128.chunk.js.map",
+    "main.js": "/emoticbox-c/static/js/main.6ad9f0c8.chunk.js",
+    "main.js.map": "/emoticbox-c/static/js/main.6ad9f0c8.chunk.js.map",
     "runtime-main.js": "/emoticbox-c/static/js/runtime-main.37c2f985.js",
     "runtime-main.js.map": "/emoticbox-c/static/js/runtime-main.37c2f985.js.map",
     "static/js/2.2a55da89.chunk.js": "/emoticbox-c/static/js/2.2a55da89.chunk.js",
     "static/js/2.2a55da89.chunk.js.map": "/emoticbox-c/static/js/2.2a55da89.chunk.js.map",
     "index.html": "/emoticbox-c/index.html",
-    "precache-manifest.3ad5495fe29bd068fb817725a8d07d2b.js": "/emoticbox-c/precache-manifest.3ad5495fe29bd068fb817725a8d07d2b.js",
+    "precache-manifest.c47bcc895f1a18cf35273ecf0b8a1df0.js": "/emoticbox-c/precache-manifest.c47bcc895f1a18cf35273ecf0b8a1df0.js",
     "service-worker.js": "/emoticbox-c/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/emoticbox-c/static/css/main.5ecd60fb.chunk.css.map",
     "static/js/2.2a55da89.chunk.js.LICENSE.txt": "/emoticbox-c/static/js/2.2a55da89.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.37c2f985.js",
     "static/js/2.2a55da89.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.2c4de128.chunk.js"
+    "static/js/main.6ad9f0c8.chunk.js"
   ]
 }
