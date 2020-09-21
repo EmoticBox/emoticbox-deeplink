@@ -16,7 +16,7 @@ const App = () => {
   }
   return (
     <div className="App">
-        <Link to="emoticbox://">{message}</Link>
+        <a href="emoticbox://">{message}</a>
     </div>
   );
 }
