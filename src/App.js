@@ -1,24 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {Link} from 'react-router-dom';
 
-function App() {
+const App = () => {
+  let message;
+  if (navigator.userAgent.match(/iPad/i)){
+    message = "ipad";
+  } else if (navigator.userAgent.match(/Tablet/i)){
+    message = "Tablet";
+  } else if (navigator.userAgent.match(/Android/i)){
+    message = "Android";
+  } else if (navigator.userAgent.match(/iPhone|iPod/i)){
+    message = "Iphone";
+  } else {
+    message = "PC";
+  }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Link to="emoticbox://">{message}</Link>
     </div>
   );
 }
