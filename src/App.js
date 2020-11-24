@@ -28,7 +28,7 @@ class deeplink extends React.Component {
       useFallback: true,
       fallbackUrl: 'https://www.naver.com'
     });
-    document.location.href = `naversearchapp://default?version=1`;
+    // document.location.href = `EmoticboxStoreApp://EmoticonInfo/:emoticonId`;
   }
 
   render() {
@@ -37,7 +37,7 @@ class deeplink extends React.Component {
         Emoticbox!
         <Link
           onClick={() =>{
-            this.deeplink.redirectToApp(`naversearchapp://default?version=1`);
+            this.deeplink.redirectToApp(`EmoticboxStoreApp://EmoticonInfo/1`);
           }}
         >
           앱 다운로드
