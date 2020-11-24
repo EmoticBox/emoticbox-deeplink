@@ -10,6 +10,7 @@
 export default function Deeplink({
     iTunesLink = 'https://itunes.apple.com',
     playStoreLink = 'https://play.google.com/store/apps',
+    pcVersionLink = 'http://www.naver.com/',
     androidPackage = 'com.myapp',
     useFallback = true,
     fallbackUrl = 'about:blank',

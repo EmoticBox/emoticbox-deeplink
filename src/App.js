@@ -27,32 +27,46 @@ class deeplink extends React.Component {
       androidPackage: 'com.nhn.android.search',
       useFallback: true,
       fallbackUrl: 'https://www.naver.com'
-    })
+    });
+    document.location.href = `naversearchapp://default?version=1`;
   }
 
   render() {
     return (
       <div>
-        <h2>네이버앱</h2>
+        Emoticbox!
         <Link
-          onClick={() =>
-            this.deeplink.redirectToApp(`naversearchapp://default?version=1`)
-          }
+          onClick={() =>{
+            this.deeplink.redirectToApp(`naversearchapp://default?version=1`);
+          }}
         >
-          naversearchapp://default?version=1
-        </Link>
-        <Link
-          onClick={() =>
-            this.deeplink.redirectToApp(
-              `naversearchapp://search?qmenu=voicerecg&version=1`
-            )
-          }
-        >
-          naversearchapp://search?qmenu=voicerecg&version=1
+          앱 다운로드
         </Link>
       </div>
     )
   }
+  //     <div>
+  //       <h2>네이버앱</h2>
+  //       <Link
+  //         onClick={() =>
+  //           this.deeplink.redirectToApp(`naversearchapp://default?version=1`)
+  //         }
+  //       >
+  //         naversearchapp://default?version=1
+  //       </Link>
+  //       <Link
+  //         onClick={() =>
+  //           this.deeplink.redirectToApp(
+  //             `naversearchapp://search?qmenu=voicerecg&version=1`
+  //           )
+  //         }
+  //       >
+  //         테스트3
+  //       </Link>
+  //       <a href="https://link.coupang.com/re/AFFPROMO?lptag=AF5734182&pageKey=75739&traceid=V0-181-a482819dd1faa9e1">Test Click</a>
+  //     </div>
+  //   )
+  // }
 }
 
 export default deeplink
