@@ -24,7 +24,7 @@ class deeplink extends React.Component {
     this.deeplink = Deeplink({
       iTunesLink: 'http://itunes.apple.com/kr/app/id393499958?mt=8', // ios 앱다운로드 링크
       playStoreLink: 'http://m.androidapp.naver.com/naverapp', // android 앱다운로드 링크
-      androidPackage: 'com.nhn.android.search',
+      androidPackage: 'com.emoticbox.store',
       useFallback: true,
       fallbackUrl: 'https://www.naver.com'
     });
