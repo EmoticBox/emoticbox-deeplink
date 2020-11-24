@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "/emoticbox-c/static/js/main.09b3b119.chunk.js",
-    "main.js.map": "/emoticbox-c/static/js/main.09b3b119.chunk.js.map",
-    "runtime-main.js": "/emoticbox-c/static/js/runtime-main.72f596f0.js",
-    "runtime-main.js.map": "/emoticbox-c/static/js/runtime-main.72f596f0.js.map",
-    "static/js/2.d34e24ca.chunk.js": "/emoticbox-c/static/js/2.d34e24ca.chunk.js",
-    "static/js/2.d34e24ca.chunk.js.map": "/emoticbox-c/static/js/2.d34e24ca.chunk.js.map",
-    "index.html": "/emoticbox-c/index.html",
-    "static/js/2.d34e24ca.chunk.js.LICENSE.txt": "/emoticbox-c/static/js/2.d34e24ca.chunk.js.LICENSE.txt"
+    "main.js": "/emoticbox-deeplink/static/js/main.a57e550d.chunk.js",
+    "main.js.map": "/emoticbox-deeplink/static/js/main.a57e550d.chunk.js.map",
+    "runtime-main.js": "/emoticbox-deeplink/static/js/runtime-main.33158532.js",
+    "runtime-main.js.map": "/emoticbox-deeplink/static/js/runtime-main.33158532.js.map",
+    "static/js/2.f57958a0.chunk.js": "/emoticbox-deeplink/static/js/2.f57958a0.chunk.js",
+    "static/js/2.f57958a0.chunk.js.map": "/emoticbox-deeplink/static/js/2.f57958a0.chunk.js.map",
+    "index.html": "/emoticbox-deeplink/index.html",
+    "static/js/2.f57958a0.chunk.js.LICENSE.txt": "/emoticbox-deeplink/static/js/2.f57958a0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.72f596f0.js",
-    "static/js/2.d34e24ca.chunk.js",
-    "static/js/main.09b3b119.chunk.js"
+    "static/js/runtime-main.33158532.js",
+    "static/js/2.f57958a0.chunk.js",
+    "static/js/main.a57e550d.chunk.js"
   ]
 }
