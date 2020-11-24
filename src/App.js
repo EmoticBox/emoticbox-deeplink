@@ -37,10 +37,17 @@ class deeplink extends React.Component {
         Emoticbox!
         <Link
           onClick={() =>{
-            this.deeplink.redirectToApp(`EmoticboxStoreApp://EmoticonInfo/1`);
+            this.deeplink.redirectToApp(`EmoticboxStoreApp://EmoticonInfo?emoticonId=33`);
           }}
         >
           앱 다운로드
+        </Link>
+        <Link
+          onClick={() =>{
+            this.deeplink.redirectToApp(`EmoticboxStoreApp://`);
+          }}
+        >
+          앱실행
         </Link>
       </div>
     )
