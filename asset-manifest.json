@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/emoticbox-deeplink/static/js/main.a57e550d.chunk.js",
-    "main.js.map": "/emoticbox-deeplink/static/js/main.a57e550d.chunk.js.map",
+    "main.js": "/emoticbox-deeplink/static/js/main.c17839ca.chunk.js",
+    "main.js.map": "/emoticbox-deeplink/static/js/main.c17839ca.chunk.js.map",
     "runtime-main.js": "/emoticbox-deeplink/static/js/runtime-main.33158532.js",
     "runtime-main.js.map": "/emoticbox-deeplink/static/js/runtime-main.33158532.js.map",
     "static/js/2.f57958a0.chunk.js": "/emoticbox-deeplink/static/js/2.f57958a0.chunk.js",
@@ -12,6 +12,6 @@
   "entrypoints": [
     "static/js/runtime-main.33158532.js",
     "static/js/2.f57958a0.chunk.js",
-    "static/js/main.a57e550d.chunk.js"
+    "static/js/main.c17839ca.chunk.js"
   ]
 }
