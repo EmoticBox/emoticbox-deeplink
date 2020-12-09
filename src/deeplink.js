@@ -22,7 +22,7 @@ export default function Deeplink({
     // const isSafariBrowser = isIOS && /version/gi.test(ua)
   
     const settings = {
-      appDownLink: isIOS ? iTunesLink : playStoreLink, // 여기 수정!! isIOS && 맥미니, 맥북 등 넣어야할듯. 앱스토어 웹이 되나?? 안되면 큐알코드 넣어야 할듯.
+      appDownLink: isIOS ? iTunesLink : playStoreLink, // 여기 수정!! 여기에 큐알코드로 이동하는 링크 넣기.
       androidPackage,
       useFallback, // 딥링크가 유효하지 않아 이동에 실패했을때, 앱스토어로 이동할지
       delay: 2000,
