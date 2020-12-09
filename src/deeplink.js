@@ -8,10 +8,10 @@
  * @param option.fallbackUrl 앱 실행, 다운로드가 불가능할 때 사용, android intent에 사용함
  */
 export default function Deeplink({
-    iTunesLink = 'https://itunes.apple.com',
-    playStoreLink = 'https://play.google.com/store/apps',
+    iTunesLink = 'https://apps.apple.com/kr/app/%EC%9D%B4%EB%AA%A8%ED%8B%B1%EB%B0%95%EC%8A%A4/id1535597509',
+    playStoreLink = 'https://play.google.com/store/apps/details?id=com.emoticbox.store',
     pcVersionLink = 'http://www.naver.com/',
-    androidPackage = 'com.myapp',
+    androidPackage = 'com.emoticbox.store',
     useFallback = true,
     fallbackUrl = 'about:blank',
   }) {

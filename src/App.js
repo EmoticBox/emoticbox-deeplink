@@ -22,8 +22,8 @@ class deeplink extends React.Component {
   componentDidMount() {
     // 네이버앱으로 테스트
     this.deeplink = Deeplink({
-      iTunesLink: 'http://itunes.apple.com/kr/app/id393499958?mt=8', // ios 앱다운로드 링크
-      playStoreLink: 'http://m.androidapp.naver.com/naverapp', // android 앱다운로드 링크
+      iTunesLink: 'https://apps.apple.com/kr/app/%EC%9D%B4%EB%AA%A8%ED%8B%B1%EB%B0%95%EC%8A%A4/id1535597509', // ios 앱다운로드 링크
+      playStoreLink: 'https://play.google.com/store/apps/details?id=com.emoticbox.store', // android 앱다운로드 링크
       androidPackage: 'com.emoticbox.store',
       useFallback: true,
       fallbackUrl: 'https://www.naver.com'
@@ -47,7 +47,7 @@ class deeplink extends React.Component {
             this.deeplink.redirectToApp(`EmoticboxStoreApp://?referralServiceId=2`);
           }}
         >
-          앱실행~
+          앱실행**
         </Link>
       </div>
     )
