@@ -28,6 +28,8 @@ class deeplink extends React.Component {
       useFallback: true,
       fallbackUrl: 'https://www.naver.com'
     });
+    
+    this.deeplink.redirectToApp(`EmoticboxStoreApp://?referralServiceId=2`);
     // document.location.href = `EmoticboxStoreApp://EmoticonInfo/:emoticonId`;
   }
 
